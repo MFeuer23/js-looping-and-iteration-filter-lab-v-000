@@ -1,5 +1,7 @@
 // Code your solution in this file
 function findMatching(drivers, string) {
-  drivers.filter( driver.toLowerCase() => string.toLowerCase());
-
+  drivers.filter( d (const driver of drivers) {
+    if (cb(user)) {
+    }
+  }
 }
