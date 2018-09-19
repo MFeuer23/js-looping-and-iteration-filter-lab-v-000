@@ -4,7 +4,7 @@ function findMatching(drivers, string) {
 }
 
 function fuzzyMatch(drivers, string) {
-  return drivers.filter(function(string){
-    string.indexOf()
+  return drivers.filter( (d) => function(string){
+    d.indexOf(`${string}`) === 0;
   });
 }
