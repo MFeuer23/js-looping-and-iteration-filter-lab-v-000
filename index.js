@@ -5,5 +5,5 @@ function findMatching(drivers, string) {
 
 function fuzzyMatch(drivers, string) {
   return drivers.querySelector(string);
-  });
+
 }
